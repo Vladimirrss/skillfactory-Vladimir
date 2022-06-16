@@ -1,0 +1,68 @@
+@font-face {
+    src: url('../fonts/OpenSans-Bold.ttf');
+    font-family: 'OpenSans-Bold';
+}
+@font-face {
+    src: url('../fonts/OpenSans-ExtraBold.ttf');
+    font-family: 'OpenSans-ExtraBold';
+}
+@font-face {
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-family: 'OpenSans-Regular';
+}
+@font-face {
+    src: url('../fonts/Joan-Regular.ttf');
+    font-family: 'Joan-Regular';
+}
+body {
+    font-family: 'OpenSans-Regular';
+    background-color: rgb(146, 139, 139);
+}
+img {
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 5px rgb(124, 127, 128) solid;
+    box-shadow: 0 0 10px #444;
+}
+button {
+    background-color: rgb(114, 114, 114);
+    border-radius: 7px;
+    border: 2px rgb(89, 86, 90) solid;
+    box-shadow: 0 0 10px #444;
+}
+h1{
+    font-family: 'Joan-Regular';
+}
+h2{
+    font-family: 'Joan-Regular';
+}
+header{
+    padding: 20px;
+    border-bottom: 3px solid rgb(66, 66, 66);
+    text-align: center;
+    flex: 0;
+}
+footer{
+    border-top: 3px solid rgb(66, 66, 66);
+    padding: 10px;
+    text-align: center;
+}
+.index{
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    flex-grow: 1;
+    padding-top: 50px;
+}
+.maine{
+    border-left: 5px solid rgb(116, 13, 6);
+    padding-left: 10px;
+    margin-top: 20px;
+
+}
+main section {
+    flex-grow: 1;
+    padding-left: 50px;
+}
+
+
